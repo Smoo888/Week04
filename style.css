@@ -1,1 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+  }
+  
+  .task-actions button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .task-actions button:hover {
+    text-decoration: underline;
+  }
+  
+  .edit-input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
 
+ .completed {
+    text-decoration: line-through;
+    color: #888;
+  } 
+  
